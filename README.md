@@ -9,6 +9,7 @@ $user->pengenal = ‘ADMIN001’;
 $user->kata_sandi = Hash::make(‘admin123’);
 $user->peran = ‘admin’;
 $user->save();
+
 **paellajaa/paellajaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
