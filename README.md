@@ -2,14 +2,6 @@
 
 <!--
 
-$user = new App\Models\User;
-$user->nama = ‘Administrator BiblioX’;
-$user->email = ‘admin@bibliox.com’;
-$user->pengenal = ‘ADMIN001’;
-$user->kata_sandi = Hash::make(‘admin123’);
-$user->peran = ‘admin’;
-$user->save();
-
 **paellajaa/paellajaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -25,10 +17,4 @@ Here are some ideas to get you started:
 -->
 
 
-$user = new App\Models\User;
-$user->nama = ‘Administrator BiblioX’;
-$user->email = ‘admin@bibliox.com’;
-$user->pengenal = ‘ADMIN001’;
-$user->kata_sandi = Hash::make(‘admin123’);
-$user->peran = ‘admin’;
-$user->save();
+
