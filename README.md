@@ -23,3 +23,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+$user = new App\Models\User;
+$user->nama = ‘Administrator BiblioX’;
+$user->email = ‘admin@bibliox.com’;
+$user->pengenal = ‘ADMIN001’;
+$user->kata_sandi = Hash::make(‘admin123’);
+$user->peran = ‘admin’;
+$user->save();
